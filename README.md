@@ -1,8 +1,7 @@
-<h1 align="center">Hi 👋, I'm Firomsa</h1>
-<h3 align="center">I'm passionate frontend developer from ASTU</h3>
+<h1 align="center">Hi 👋, We are developers</h1>
 <h3 align="center">This is E-Health servlet project</h3>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with us:</h3>
 <p align="left">
 </p>
 
