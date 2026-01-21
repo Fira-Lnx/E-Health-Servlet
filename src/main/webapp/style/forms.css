@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header .logo h1 {
+    font-size: 2em;
+}
+
+.header .logo .subtitle {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.main-nav {
+    margin-top: 15px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav ul li a.active {
+    font-weight: bold;
+}
+
+/* Search bar */
+.search-bar {
+    display: inline-block;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Form section */
+.form-section {
+    max-width: 600px; /* Centered form width */
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+}
+
+.form-section h3 {
+    margin: 20px 0 10px;
+}
+
+label {
+    display: block; /* Block for full-width */
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="password"] {
+    type: password;
+}
+
+/* Button styles */
+.form-buttons {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+}
+
+.book-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #357ab8;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4a90e2;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Space above footer */
+}
